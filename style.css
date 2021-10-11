@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    color: rgb(207, 207, 207);
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}s
+
+:focus {
+    outline: none;
+}
+
+
+
+
+#navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    padding: 1rem;
+    margin: auto;
+    
+}
+#logo {
+    font-size: 3rem;
+    
+}
+#search {
+    border: none;
+    padding: 0 0 0 1rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    align-self: center;
+    background-color: rgb(80, 80, 80);
+    color: rgb(0, 0, 0);
+}
+
+#searchResult {
+    color: rgb(75, 75, 75);
+    margin: 1rem;
+   
+    display:flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.log-in {
+    font-size: 1.5rem;
+    color: rgb(255, 0, 0);
+    
+}
+
+.player-container {
+    
+    padding: 2.5rem 0 2.5rem 0;
+   width: 50vw;
+   margin:auto;
+
+}
+
+.title {
+    color:rgb(233, 233, 233);
+}
+.id {
+    color:rgb(80, 80, 80);
+
+}
+
+.player-top {
+    
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 0.5rem;
+}
+.player {
+   
+    display:grid;
+    grid-template-columns: 100px auto;
+}
+
+
+.play-button {
+    background-color: rgb(10, 10, 10);
+
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.play-button:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.play {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 25px;
+    border-color: transparent transparent transparent #ffffff;
+    transition: 100ms all ease;
+    
+    border-style: solid;
+    border-width: 12px 0 12px 15px;
+    align-self: center;
+}
+
+.paused {
+    
+        border-style: double;
+        border-width: 0px 0 0px 20px;
+      }
+    
+ .play:hover {
+        border-color: transparent transparent transparent #000000b4;
+      }
+
+
+.waveform {
+    position: relative;
+    overflow:auto;
+    align-self:center;
+}
+
